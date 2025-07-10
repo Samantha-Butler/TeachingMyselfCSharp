@@ -1,0 +1,25 @@
+# Node
+node_modules/
+
+# Angular
+dist/
+out-tsc/
+
+# .NET
+bin/
+obj/
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
+appsettings.*.json
+appsettings.Development.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
