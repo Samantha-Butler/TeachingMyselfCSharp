@@ -7,7 +7,7 @@ namespace JobTrackr.Api.Models
         public int Id { get; set; }
         public string CompanyName { get; set; } = string.Empty;
         public string Role { get; set; } = string.Empty;
-        public string Stage { get; set; } = "Applied"; // Applied, Interview, Offer, Rejected
+        public string Stage { get; set; } = "Applied"; // E.g. Applied, Interview, Offer, Rejected
         public DateTime AppliedDate { get; set; } = DateTime.UtcNow;
         public string Location { get; set; } = string.Empty;
         public string Notes { get; set; } = string.Empty;
