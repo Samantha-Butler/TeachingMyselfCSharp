@@ -1,0 +1,6 @@
+@ChoreDashboard.Api_HostAddress = http://localhost:5098
+
+GET {{ChoreDashboard.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
