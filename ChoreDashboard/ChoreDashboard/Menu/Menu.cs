@@ -18,6 +18,9 @@ namespace ParentDashboard.Menu
                 case "1":
                     new ChoreHandler().Handler();
                     break;
+                case "2":
+                    Environment.Exit(0);
+                    break;
                 default:
                     Console.WriteLine("Invalid input. Press Enter to try again.");
                     Console.ReadLine();
